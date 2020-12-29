@@ -1,7 +1,7 @@
 import { types, flow, applySnapshot } from 'mobx-state-tree';
 import { User } from './User';
 
-const getUsersUrl = 'http://localhost:3001/users';
+const getUsersUrl = 'http://m2.lith.one/users';
 
 export const Group = types
   .model({

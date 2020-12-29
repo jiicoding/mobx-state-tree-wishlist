@@ -1,6 +1,6 @@
 import { types, flow, getSnapshot, onSnapshot } from 'mobx-state-tree';
-
-const urlPrefix = 'http://localhost:3001';
+import {urlPrefix} from './settings'
+//const urlPrefix = 'http://localhost:3001';
 
 export function createStorable(collection, attribute) {
   return types.model({}).actions(self => ({

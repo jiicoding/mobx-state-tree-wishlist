@@ -1,5 +1,6 @@
 import './assets/index.css';
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 import { getSnapshot /*, onSnapshot*/ } from 'mobx-state-tree';
 import { Group } from './models';

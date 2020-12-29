@@ -5,6 +5,7 @@ import { WishList } from './WishList';
 const urlPrefix = 'http://m2.lith.one';
 
 export const User = types.compose(
+
   types
     .model({
       id: types.identifier(),
