@@ -2,7 +2,7 @@ import { types, flow } from 'mobx-state-tree';
 import { createStorable } from './Storable';
 import { WishList } from './WishList';
 
-const urlPrefix = 'http://localhost:3001';
+const urlPrefix = 'http://m2.lith.one';
 
 export const User = types.compose(
   types
